@@ -1,0 +1,132 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(to bottom right, lightgray, white);
+  font-family: 'Lobster', cursive;
+  font-size: 16px;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.button {
+  background-color: #3d6ded;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 18px;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  width: 120px;
+}
+
+.card {
+  align-items: center;
+  background-image: linear-gradient(to bottom right, white, lightgray);
+  border-radius: 10px;
+  -webkit-box-shadow: 4px 4px 40px 0px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 4px 4px 40px 0px rgba(0, 0, 0, 1);
+  box-shadow: 4px 4px 40px 0px rgba(0, 0, 0, 1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 50px;
+  padding: 50px;
+}
+
+.nav-item {
+  align-self: flex-end;
+  color: #3d6ded;
+  font-size: 18px;
+  margin: 15px;
+  text-decoration: none;
+}
+.page-wrapper {
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+}
+
+.profile-image {
+  background-color: black;
+  border-radius: 50%;
+  color: white;
+  font-size: 32px;
+  height: 180px;
+  margin: 50px;
+  width: 180px;
+}
+header{
+  display:flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+.leftheader{
+  flex-basis: 40%;
+  text-align: right;
+  padding-right: 0.5rem;
+}
+.rightheader{
+  flex-basis: 60%;
+  margin-top: 3.75rem;
+  padding-left: 0.5rem;
+}
+.rightheader h1{
+  margin:0;
+  color: #293469;
+  font-size: 3rem;
+}
+.rightheader p{
+  margin-top: -0.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.75rem;
+  font-weight: bold;
+}
+nav{
+  border-bottom: 1px solid #530F40;
+  border-top: 1px solid #784C87;
+  width: 100%;
+  background-color: cornsilk;
+}
+nav ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+nav li{
+  display: inline-block;
+}
+nav a{
+  font-family: 'Acme', sans-serif;
+  text-decoration: none;
+  color: #3d6ded;
+  display: block;
+  padding: 0.5rem 10rem;
+}
+nav a:hover{
+  background-color: black;
+  color: whitesmoke;
+  text-decoration: none;
+  font-style: italic;
+}
+.aboutpage{
+  background-image: url(https://wordpress.accuweather.com/wp-content/uploads/2020/01/vincentiu-solomon-ln5drpv_ImI-unsplash.jpg?w=632);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.myphoto{
+  border:10px solid blueviolet;
+  border-radius: 25px;
+  width: 300px;
+  height: 267px;
+}
+.aboutcontent{
+  background-color: whitesmoke;
+}
